@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .flex{
     display: flex;
@@ -110,9 +111,9 @@ ul li a{
     border-left: 1px solid rgba(255,255,255,0.3);
     border-top: 1px solid rgba(255,255,255,0.3);
 }
-.section2-h2{
-    font-size: 40px;
-    font-weight: bold;
+.section-h2{
+  font-size: 40px;
+  font-weight: bold;
 }
 .section2-bg{
     background-image: url("../img/richard-horvath-_nWaeTF6qo0-unsplash.jpg");
@@ -273,4 +274,13 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .header-h1-style{
+    font-weight: bold;
+  }
+  .header-p-style{
+    font-size: 20px;
+  }
+  .baniere-texte{
+    font-size: 40px;
   }
